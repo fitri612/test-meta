@@ -9,7 +9,7 @@ const TestAction = ({ metadata }: TestActionProps) => {
   return (
     <div>
       <Head>
-        <title>{metadata.title}</title>
+        {/* <title>{metadata.title}</title> */}
         <meta name="description" content={metadata.description} />
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:title" content={metadata.openGraph.title} />
